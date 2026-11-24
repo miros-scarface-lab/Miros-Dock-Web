@@ -1,69 +1,59 @@
-# Miros Dock Web
+# Miros Dock Web (v1.0.0)
 
-A lightweight web project for the Miros Dock experience, built with HTML, CSS, and a small amount of JavaScript.
+Official landing page for **Miros Dock V1.0.0** — high-speed local file sharing and portable Web Dock server for Android and Windows.
 
-## Overview
+## 🚀 About Miros Dock
 
-This repository contains a front-end web interface styled as a responsive, static website. It is designed to present content in a clean layout with modern styling and simple interactive behavior.
+Miros Dock is a dual-capability application built with Flutter:
 
-## Tech Stack
+1. **Miros Send (High-Speed Local P2P Transfer)**:
+   - Direct device-to-device file transfers over local Wi-Fi or hotspot.
+   - Zero internet data usage and no cloud dependency.
+   - Automatic local discovery (mDNS) and instant QR code pairing.
+   - Resumable chunked file transfers and end-to-end security.
 
-- HTML
-- CSS
-- JavaScript
+2. **Portable Web Dock (Browser Access Server)**:
+   - Built-in local HTTP server (Shelf + Isar DB) directly on your device.
+   - Browse, stream videos/music, and download files from any web browser on the network without installing the app.
+   - Two-way upload from external devices back to your dock.
+   - PIN / password security protection.
 
-## Project Structure
+## 📥 Downloads (v1.0.0)
+
+- **Android (APK)**:
+  - [GitHub Release](https://github.com/miros-scarface-lab/Miros-_Dock/releases/download/v1.0.0/Miros-Dock-v1.0.0.apk)
+  - [Google Drive Mirror](https://drive.google.com/file/d/1Ld5LL1jOHxNs8ojtEB3NvZDuCi2AIDfi/view?usp=sharing)
+- **Windows (Setup .exe)**:
+  - [GitHub Release](https://github.com/miros-scarface-lab/Miros-_Dock/releases/download/v1.0.0/MirosDock-Setup-1.0.0.exe)
+  - [Google Drive Mirror](https://drive.google.com/file/d/1ZEFivkR8yK9TjkmPOZ3ynKNBd4DfCW0N/view?usp=sharing)
+
+## 🌐 Web Project Overview
+
+This repository hosts the static landing page for Miros Dock, built with clean semantic HTML5, modern CSS, and lightweight JavaScript.
+
+### Project Structure
 
 ```text
 .
 ├── README.md
-├── index.html
-├── styles.css
-├── script.js
-└── assets/
+├── index.html       # Landing page structure & metadata
+├── styles.css       # Responsive styling & themes
+├── script.js        # Dynamic download modal & platform routing
+└── favicon.svg      # Site icon
 ```
 
-> Note: File names may vary depending on how the project is organized in your branch.
+### Local Development
 
-## Features
-
-- Responsive layout
-- Clean visual design
-- Simple, fast front-end experience
-- Static site suitable for hosting on GitHub Pages or any basic web server
-
-## Local Development
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/miros-scarface-lab/Miros-Dock-Web.git
-   ```
-2. Open the project folder:
+1. Open the project folder:
    ```bash
    cd Miros-Dock-Web
    ```
-3. Start a local web server:
+2. Start a local server:
    ```bash
    python -m http.server 8000
    ```
-4. Visit:
-   ```text
-   http://localhost:8000
-   ```
+3. Open `http://localhost:8000` in your browser.
 
-## Deployment
+## 📄 License
 
-This project can be deployed using:
-
-- GitHub Pages
-- Netlify
-- Vercel
-- Any static hosting provider
-
-## Notes
-
-This repository is currently minimal and may be expanded with additional pages, assets, or interactions as the project grows.
-
-## License
-
-This project does not currently specify a license.
+Created by Mir A K Sajid. All rights reserved.
