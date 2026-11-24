@@ -1,11 +1,11 @@
 const downloadLinks = {
   Android: {
-    github: "https://github.com/Miros-Send/MirosSend/releases/tag/android",
+    github: "https://github.com/miros-scarface-lab/Miros-_Dock/releases/download/v1.0.0/Miros-Dock-v1.0.0.apk",
     web: "https://drive.google.com/file/d/1Ld5LL1jOHxNs8ojtEB3NvZDuCi2AIDfi/view?usp=sharing",
     webLabel: "Download APK (.apk)",
   },
   Windows: {
-    github: "https://github.com/Miros-Send/MirosSend/releases/tag/windows",
+    github: "https://github.com/miros-scarface-lab/Miros-_Dock/releases/download/v1.0.0/MirosDock-Setup-1.0.0.exe",
     web: "https://drive.google.com/file/d/1ZEFivkR8yK9TjkmPOZ3ynKNBd4DfCW0N/view?usp=sharing",
     webLabel: "Download Windows (.exe)",
   },
